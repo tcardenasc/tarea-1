@@ -4,10 +4,23 @@ import serial
 from command import interface, ser
 from struct import pack, unpack
 
+DEBUG = True
+
 # Set the COM port and baud rate
 
 # Open the serial connection
 
+def log_debug(data):
+    try:
+        data = data.split('{')[1].split('}')[0]
+        with open('debug.log', 'a') as f:
+            f.write(data + '\n')
+    except:
+        try:
+            with open('errors.log', 'a') as f:
+                f.write(data + '\n')
+        except:
+            pass
 
 # Functions 
 def send_message(message):
@@ -15,6 +28,8 @@ def send_message(message):
 
 def receive_response(stop = b'\x00'):
     response = ser.read_until(stop)  # Reading until \0
+    with open("aaaaaaa.log", 'a') as f:
+        f.write(response.decode('utf-8') + '\n')
     return response[:-1]
 
 def receive_data():
@@ -23,16 +38,19 @@ def receive_data():
         data = unpack("hhhhhh", data)
         #print(f'Received: {data}')
     except:
-        print(f'Error en leer mensaje [{data.decode("utf-8")}]')
+        #print(f'Error en leer mensaje [{data.decode("utf-8")}]')
         raise Exception()
     return data
 
 def receive_data_print():
     try:
         data = receive_response(b'>').decode('utf-8')
+        if '{' in data:
+            log_debug(data)
         data = data.split('<')[1].split('>')[0].split('|')
         #print(f'Received: {data}')
     except:
+        if DEBUG: log_debug(data)
         # print(f'Error en leer mensaje [{data}]')
         raise Exception()
     return data
@@ -82,9 +100,13 @@ def send_end_message():
 
 
 interface()
+message = receive_response(b'}')
+log_debug(message.decode('utf-8'))
 # Send "BEGIN" message
 message = pack('6s','BEGIN\0'.encode())
 ser.write(message)
+
+
 
 # Read data from the serial port, waiting for the data
 counter = 0

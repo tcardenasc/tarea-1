@@ -926,11 +926,14 @@ void debug_register_log(char* mode){
     bmi_read(I2C_NUM_0, &reg_acc_conf, &val_acc_conf,1);
     bmi_read(I2C_NUM_0, &reg_gyr_conf, &val_gyr_conf,1);
     bmi_read(I2C_NUM_0, &reg_pwr_conf, &val_pwr_conf,1);
-    printf("{Mode : %s", mode);
+    printf("{=================================\nMode : %s\n", mode);
     printf("PWR_CTRL: %2X\n", val_pwr_ctrl);
     printf("ACC_CONF: %2X\n", val_acc_conf);
     printf("GYR_CONF: %2X\n", val_gyr_conf);
-    printf("PWR_CONF: %2X\n}", val_pwr_conf);
+    printf("PWR_CONF: %2X\n", val_pwr_conf);
+    printf("ACC_ODR : %2X\n", val_acc_conf & 0b00001111);
+    printf("GYR_ODR : %2X\n", val_gyr_conf & 0b00001111);
+    printf("=================================}\n");
 }
 
 // Main
@@ -942,13 +945,13 @@ void app_main(){
     chipid();
     initialization();
     check_initialization();
-    powermode_normal();
+    powermode_low();
     internal_status();
     
 
     // Waiting for an BEGIN to initialize data sending
     char dataResponse1[6];
-    char mode[] = "Normal";
+    char *powermode = "Low";
     int DEBUG = 1;
     //printf("Beginning initialization... \n");
     while (1){
@@ -958,30 +961,68 @@ void app_main(){
             if (strcmp(dataResponse1, "BEGIN") == 0)
             {
                 // uart_write_bytes(UART_NUM,"OK\0",3);
-                if (DEBUG) debug_register_log(mode);
+                if (DEBUG) {
+                    debug_register_log(powermode);
+                    vTaskDelay(pdMS_TO_TICKS(1000));  
+                }
+                
                 break;
-            }
-            char mode[3];
-            char selected[2];
+            } 
+            char mode[4];
+            char selected[3];
             strncpy(mode, dataResponse1, 3);
             strncpy(selected, dataResponse1 + 3, 2);
-            mode[3] = "\0"; selected[2] = "\0";
+            printf("{command mode: %s, selected: %s\n}", mode, selected);
+            printf("{command mode: %s, selected: %s\n}", mode, selected);
+            printf("{command mode: %s, selected: %s\n}", mode, selected);
+            printf("{command mode: %s, selected: %s\n}", mode, selected);
+            printf("{command mode: %s, selected: %s\n}", mode, selected);
+            printf("{command mode: %s, selected: %s\n}", mode, selected);
+            printf("{command mode: %s, selected: %s\n}", mode, selected);
+            printf("{command mode: %s, selected: %s\n}", mode, selected);
+            // mode[3] = "\0"; selected[2] = "\0";
+            vTaskDelay(pdMS_TO_TICKS(1000));  
             if (strcmp(mode, "PWR") == 0){
+                printf("{POWERMODE CHANGING}\n");
+                printf("{POWERMODE CHANGING}\n");
+                printf("{POWERMODE CHANGING}\n");
+                printf("{POWERMODE CHANGING}\n");
+                printf("{POWERMODE CHANGING}\n");
+                printf("{POWERMODE CHANGING}\n");
+                printf("{POWERMODE CHANGING}\n");
                 if (strcmp(selected, "#1") == 0){
                     powermode_low();
-                    mode = "Low";
+                    powermode = "Low";
                 }
                 if (strcmp(selected, "#2") == 0){
                     powermode_normal();
-                    mode = "Normal";
+                    powermode = "Normal";
                 }
                 if (strcmp(selected, "#3") == 0){
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
+                    printf("{PERFORMANCE ENGAGED}\n");
                     powermode_performance();
-                    mode = "Performance";
+                    powermode = "Performance";
                 }
                 if (strcmp(selected, "#4") == 0){
                     powermode_suspend();
-                    mode = "suspend";
+                    powermode = "suspend";
                 }
             }
             if (strcmp(mode, "ODR") == 0){
