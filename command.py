@@ -1,7 +1,7 @@
 import serial
 from struct import pack, unpack
 
-COM_PORT = '/dev/ttyUSB0'  # Replace with your COM port
+COM_PORT = '/dev/ttyUSB1'  # Replace with your COM port
 BAUD_RATE = 115200  # Match the baud rate used by your ESP32s2
 
 ser = serial.Serial(COM_PORT, BAUD_RATE, timeout = 1)

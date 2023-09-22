@@ -720,23 +720,21 @@ void powermode_normal(void){
 
     vTaskDelay(1000 /portTICK_PERIOD_MS);   
 
-    printf("Normal power mode: activated. \n\n");
+    //printf("Normal power mode: activated. \n\n");
 }
 
 void powermode_low(void){
     uint8_t reg_pwr_ctrl=0x7D, val_pwr_ctrl=0x0E;
     uint8_t reg_acc_conf=0x40, val_acc_conf=0x17;
-    //uint8_t reg_gyr_conf=0x42, val_gyr_conf=0x00; 
     uint8_t reg_pwr_conf=0x7C, val_pwr_conf=0x01;
     
     bmi_write(I2C_NUM_0, &reg_pwr_ctrl, &val_pwr_ctrl,1);
     bmi_write(I2C_NUM_0, &reg_acc_conf, &val_acc_conf,1);
-    //bmi_write(I2C_NUM_0, &reg_gyr_conf, &val_gyr_conf,1);
     bmi_write(I2C_NUM_0, &reg_pwr_conf, &val_pwr_conf,1);
 
     vTaskDelay(1000 /portTICK_PERIOD_MS);   
 
-    printf("Low power mode: activated. \n\n");
+    //printf("Low power mode: activated. \n\n");
 }
 
 void powermode_suspend(void){
@@ -752,7 +750,6 @@ void powermode_suspend(void){
 
     vTaskDelay(1000 /portTICK_PERIOD_MS);   
 
-    printf("Suspended mode: activated. \n\n");
 }
 
 void internal_status(void){
@@ -763,6 +760,7 @@ void internal_status(void){
     printf("Internal Status: %2X\n\n", tmp);
 
 }
+
 float rms_value(uint16_t *l, int n){
     float square = 0;
     float mean;
@@ -816,9 +814,6 @@ int compare_uint16(const void *a, const void *b){
 
 void sort_uint16(uint16_t * l){
     qsort(l,20,sizeof(l[0]),compare_uint16);
-    // uint16_t * new_l = malloc(5*sizeof(uint16_t));
-    // new_l = l[0:4];
-    // return new_l;
 }
 
 void print5Peaks(uint16_t *l){
@@ -860,7 +855,6 @@ void lectura(void){
                 gy[i] = gyr_y;
                 gz[i] = gyr_z;
             }
-            
         }
 
         sort_uint16(ax);
@@ -891,7 +885,6 @@ void lectura(void){
         float rms_gy = rms_value(gy, samples);
         float rms_gz = rms_value(gz, samples);
 
-
         printf("<%hu\t%hu\t%hu\t%hu\t%hu\t%hu|%f\t%f\t%f\t%f\t%f\t%f|", acc_x, acc_y, acc_z, gyr_x, gyr_y, gyr_z, rms_ax, rms_ay, rms_az, rms_gx, rms_gy, rms_gz);
         printFFT(ft_ax, samples);
         printf("\t");
@@ -905,7 +898,7 @@ void lectura(void){
         printf("\t");
         printFFT(ft_gz, samples);
         printf("|");
-        // 5 peaks ax
+
         print5Peaks(ax);
         print5Peaks(ay);
         print5Peaks(az);
@@ -913,7 +906,6 @@ void lectura(void){
         print5Peaks(gy);
         print5Peaks(gz);
         printf(">");
-
     }
 }
 
@@ -945,17 +937,17 @@ void app_main(){
     chipid();
     initialization();
     check_initialization();
-    powermode_low();
+    powermode_normal();
     internal_status();
     
 
     // Waiting for an BEGIN to initialize data sending
-    char dataResponse1[6];
-    char *powermode = "Low";
+    char dataResponse1[8];
+    char *powermode = "Normal";
     int DEBUG = 1;
     //printf("Beginning initialization... \n");
     while (1){
-        int rLen = serial_read(dataResponse1, 6);
+        int rLen = serial_read(dataResponse1, 8);
         if (rLen > 0)
         {
             if (strcmp(dataResponse1, "BEGIN") == 0)
@@ -972,75 +964,59 @@ void app_main(){
             char selected[3];
             strncpy(mode, dataResponse1, 3);
             strncpy(selected, dataResponse1 + 3, 2);
-            printf("{command mode: %s, selected: %s\n}", mode, selected);
-            printf("{command mode: %s, selected: %s\n}", mode, selected);
-            printf("{command mode: %s, selected: %s\n}", mode, selected);
-            printf("{command mode: %s, selected: %s\n}", mode, selected);
-            printf("{command mode: %s, selected: %s\n}", mode, selected);
-            printf("{command mode: %s, selected: %s\n}", mode, selected);
-            printf("{command mode: %s, selected: %s\n}", mode, selected);
-            printf("{command mode: %s, selected: %s\n}", mode, selected);
+            printf("{command mode: %s, selected: %s}\n", mode, selected);
             // mode[3] = "\0"; selected[2] = "\0";
             vTaskDelay(pdMS_TO_TICKS(1000));  
             if (strcmp(mode, "PWR") == 0){
                 printf("{POWERMODE CHANGING}\n");
-                printf("{POWERMODE CHANGING}\n");
-                printf("{POWERMODE CHANGING}\n");
-                printf("{POWERMODE CHANGING}\n");
-                printf("{POWERMODE CHANGING}\n");
-                printf("{POWERMODE CHANGING}\n");
-                printf("{POWERMODE CHANGING}\n");
                 if (strcmp(selected, "#1") == 0){
+                    printf("{LOW ENGAGED}\n");
                     powermode_low();
                     powermode = "Low";
                 }
                 if (strcmp(selected, "#2") == 0){
+                    printf("{NORMAL ENGAGED}\n");
                     powermode_normal();
                     powermode = "Normal";
                 }
                 if (strcmp(selected, "#3") == 0){
                     printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    printf("{PERFORMANCE ENGAGED}\n");
                     powermode_performance();
                     powermode = "Performance";
                 }
                 if (strcmp(selected, "#4") == 0){
+                    printf("{SUSPEND ENGAGED}\n");
                     powermode_suspend();
                     powermode = "suspend";
                 }
             }
             if (strcmp(mode, "ODR") == 0){
-                int code = strtol(selected, NULL, 16);
+                char level[2];
+                strncpy(level, selected +1, 1);
+                int code = strtol(level, NULL, 16);
+                uint8_t old = 0; uint8_t new = 0;
                 if (code){ 
                     uint8_t reg_acc_conf=0x40, val_acc_conf;
                     bmi_read(I2C_NUM_0, &reg_acc_conf, &val_acc_conf, 1);
+                    old = val_acc_conf;
                     val_acc_conf = (val_acc_conf & 0b11110000) | code;
+                    new = val_acc_conf;
                     bmi_write(I2C_NUM_0, &reg_acc_conf, &val_acc_conf, 1);
+                    printf("{ODR ACC changed %2X -¬ %2X}\n", old, new);
                 }
                 strncpy(selected, dataResponse1 + 5, 2);
-                code = strtol(selected, NULL, 16);
+                strncpy(level, selected +1, 1);
+                code = strtol(level, NULL, 16);
                 if (code){
                     uint8_t reg_gyr_conf=0x42, val_gyr_conf; 
                     bmi_read(I2C_NUM_0, &reg_gyr_conf, &val_gyr_conf, 1);
+                    old = val_gyr_conf;
                     val_gyr_conf = (val_gyr_conf & 0b11110000) | code;
+                    new = val_gyr_conf;
                     bmi_write(I2C_NUM_0, &reg_gyr_conf, &val_gyr_conf, 1);
+                    printf("{ODR GYR changed %2X -¬ %2X}\n", old, new);
                 }
+                
             }
         }
     }

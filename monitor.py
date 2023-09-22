@@ -5,22 +5,29 @@ from command import interface, ser
 from struct import pack, unpack
 
 DEBUG = True
+data_storage = ''
 
 # Set the COM port and baud rate
 
 # Open the serial connection
 
 def log_debug(data):
+    extras = ''
+    print("-------------------",data)
     try:
-        data = data.split('{')[1].split('}')[0]
+        msgs = data.split('{')
+        print(msgs)
+        msgs = "\n".join([msg.split('}')[0] for msg in msgs if msg])
         with open('debug.log', 'a') as f:
-            f.write(data + '\n')
+                f.write(msgs + '\n^^^^^^^^^^^^^^^^^^^^\n')
     except:
         try:
             with open('errors.log', 'a') as f:
                 f.write(data + '\n')
         except:
             pass
+    if extras:
+        return extras
 
 # Functions 
 def send_message(message):
@@ -28,10 +35,11 @@ def send_message(message):
 
 def receive_response(stop = b'\x00'):
     response = ser.read_until(stop)  # Reading until \0
-    with open("aaaaaaa.log", 'a') as f:
+    with open('aaaaaaa.log', 'a') as f:
         f.write(response.decode('utf-8') + '\n')
     return response[:-1]
 
+# deprecated
 def receive_data():
     try:
         data = receive_response()
@@ -43,16 +51,22 @@ def receive_data():
     return data
 
 def receive_data_print():
+    global data_storage
     try:
         data = receive_response(b'>').decode('utf-8')
         if '{' in data:
-            log_debug(data)
+            data = log_debug(data)
+            
+        if not data:
+            return 
         data = data.split('<')[1].split('>')[0].split('|')
         #print(f'Received: {data}')
     except:
+        data_storage += data
         if DEBUG: log_debug(data)
         # print(f'Error en leer mensaje [{data}]')
         raise Exception()
+
     return data
 
 def convert_value_data(l, type = int):
@@ -83,14 +97,14 @@ def interpret_data(data):
     factors = [78.4532/32768, 8.000/32768, 34.90659/32768]
     values = [[acc_x, acc_y, acc_z], [acc_x, acc_y, acc_z], [gyr_x, gyr_y, gyr_z]]
     
-    print(f"|    Sensor   |{'X':<9}|{'Y':<9}|{'Z':<9}|{'units':^6}|")
-    print( "|-------------|---------|---------|---------|---------|")
+    #print(f"|    Sensor   |{'X':<9}|{'Y':<9}|{'Z':<9}|{'units':^6}|")
+    #print( "|-------------|---------|---------|---------|---------|")
     for sens, vals, fact, unit in zip(sensor, values, factors, units):
         x, y, z = vals
         x = mult_n_round(x, fact, 7)
         y = mult_n_round(y, fact, 7)
         z = mult_n_round(z, fact, 7)
-        print(f'|{sens:^13}|{x:^10}|{y:^10}|{z:^10}|{unit:^6}|')
+        #print(f'|{sens:^13}|{x:^10}|{y:^10}|{z:^10}|{unit:^6}|')
     
     
   
@@ -98,10 +112,23 @@ def send_end_message():
     end_message = pack('4s', 'END\0'.encode())
     ser.write(end_message)
 
+def retrieve_storage():
+    global data_storage
+    if not data_storage:
+        return None
+    if '<' not in data:
+        data_storage = ''
+        print("\n\n\n STORAGE CLEARED \n\n\n")
+    if '>' not in data:
+        print("\n\n STORAGE NOT READY \n\n")
+        return None
+    split = data_storage.split('<')[1].split('>')
+    data = split[0].split('|')
+    data_storage = split[1]
+    print("             ", data)
+    return data
 
 interface()
-message = receive_response(b'}')
-log_debug(message.decode('utf-8'))
 # Send "BEGIN" message
 message = pack('6s','BEGIN\0'.encode())
 ser.write(message)
@@ -114,6 +141,10 @@ while True:
     if ser.in_waiting > 0:
         try:
             message = receive_data_print()
+            if message is None:
+                message = retrieve_storage()
+                if message is None:
+                    continue
             vals, rms_vals, fts, peaks = message
 
             # separate values as string lists
@@ -150,10 +181,10 @@ while True:
             continue
         else: 
             counter += 1
-            print(counter)
+            #print(counter)
         finally:
             if counter == 10:
-                print('Lecturas listas!')
+                #print('Lecturas listas!')
                 break
 
 # Sending message to end data sending
@@ -170,7 +201,7 @@ while True:
             continue
         else: 
             if msg == 'OK':
-                print('Cerrando conexión...')
+                #print('Cerrando conexión...')
                 break
 ser.close()
         
