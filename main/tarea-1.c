@@ -724,9 +724,9 @@ void powermode_normal(void){
 }
 
 void powermode_low(void){
-    uint8_t reg_pwr_ctrl=0x7D, val_pwr_ctrl=0x0E;
+    uint8_t reg_pwr_ctrl=0x7D, val_pwr_ctrl=0x04;
     uint8_t reg_acc_conf=0x40, val_acc_conf=0x17;
-    uint8_t reg_pwr_conf=0x7C, val_pwr_conf=0x01;
+    uint8_t reg_pwr_conf=0x7C, val_pwr_conf=0x03;
     
     bmi_write(I2C_NUM_0, &reg_pwr_ctrl, &val_pwr_ctrl,1);
     bmi_write(I2C_NUM_0, &reg_acc_conf, &val_acc_conf,1);
@@ -761,7 +761,7 @@ void internal_status(void){
 
 }
 
-float rms_value(uint16_t *l, int n){
+float rms_value(int16_t *l, int n){
     float square = 0;
     float mean;
     float root;
@@ -778,7 +778,7 @@ typedef struct {
     float imag;
 } complejo;
 
-void calcularFFT(uint16_t *entrada_amplitud_tiempo, int longitud, float frecuencia_muestreo, complejo *salida_fft) {
+void calcularFFT(int16_t *entrada_amplitud_tiempo, int longitud, float frecuencia_muestreo, complejo *salida_fft) {
     for (int k = 0; k < longitud; k++) {
         salida_fft[k].real = 0;
         salida_fft[k].imag = 0;
@@ -806,47 +806,54 @@ void printFFT(complejo *fft, int longitud) {
     printf("%f,%f", fft[longitud-1].real, fft[longitud-1].imag);
 }
 
-int compare_uint16(const void *a, const void *b){
-    uint16_t num1 = *((uint16_t *) a);
-    uint16_t num2 = *((uint16_t *) b);
+int compare_int16(const void *a, const void *b){
+    int16_t num1 = *((int16_t *) a);
+    int16_t num2 = *((int16_t *) b);
     return num1 - num2;
 }
 
-void sort_uint16(uint16_t * l){
-    qsort(l,20,sizeof(l[0]),compare_uint16);
+void sort_int16(int16_t * l){
+    qsort(l,20,sizeof(l[0]),compare_int16);
 }
 
-void print5Peaks(uint16_t *l){
-    printf("%hu\t%hu\t%hu\t%hu\t%hu&",l[19],l[18],l[17],l[16],l[15]);
+void print5Peaks(int16_t *l){
+    printf("%hd\t%hd\t%hd\t%hd\t%hd&",l[19],l[18],l[17],l[16],l[15]);
 }
 
-void lectura(void){
-    uint8_t reg_intstatus=0x03, tmp;
-    int bytes_data8 = 12;
-    uint8_t reg_data = 0x0C, data_data8[bytes_data8];
-    uint16_t acc_x, acc_y, acc_z, gyr_x, gyr_y, gyr_z;
-    int samples = 20;
-    uint16_t ax[samples], ay[samples], az[samples], gx[samples], gy[samples], gz[samples];
+void lectura(uint8_t bytes_to_read){
     
 
-    while (1){
+    uint8_t reg_intstatus=0x03, tmp;
+    uint8_t reg_data = 0x0C, data_data8[bytes_to_read];
+    uint16_t acc_x, acc_y, acc_z, gyr_x, gyr_y, gyr_z;
+    acc_x = acc_y = acc_z = gyr_x = gyr_y = gyr_z = 0;
+    int samples = 20;
+    int16_t ax[samples], ay[samples], az[samples], gx[samples], gy[samples], gz[samples];
+    
+    int interations = 10;
+    while (interations--){
         bmi_read(I2C_NUM_0, &reg_intstatus, &tmp,1);
         //ESP_LOGI("leturabmi", "acc_data_ready: %x - mask(80): %x \n", tmp, (tmp & 0b10000000));
 
         for(int i=0; i<samples; i++){
             if ((tmp & 0b10000000) == 0x80){ 
-                ret= bmi_read(I2C_NUM_0, &reg_data, (uint8_t*) data_data8, bytes_data8);
+                ret= bmi_read(I2C_NUM_0, &reg_data, (uint8_t*) data_data8, bytes_to_read);
                 if(ret != ESP_OK){
                     printf("Error lectura: %s \n",esp_err_to_name(ret));
                 }
                 
-                acc_x = ((uint16_t) data_data8[1] << 8) | (uint16_t) data_data8[0];
-                acc_y = ((uint16_t) data_data8[3] << 8) | (uint16_t) data_data8[2];
-                acc_z = ((uint16_t) data_data8[5] << 8) | (uint16_t) data_data8[4];
+                if (bytes_to_read > 5){
+                    acc_x = ((uint16_t) data_data8[1] << 8) | (uint16_t) data_data8[0];
+                    acc_y = ((uint16_t) data_data8[3] << 8) | (uint16_t) data_data8[2];
+                    acc_z = ((uint16_t) data_data8[5] << 8) | (uint16_t) data_data8[4];
+                }
+                if (bytes_to_read  == 12){
+                    gyr_x = ((uint16_t) data_data8[7] << 8) | (uint16_t) data_data8[6];
+                    gyr_y = ((uint16_t) data_data8[9] << 8) | (uint16_t) data_data8[8];
+                    gyr_z = ((uint16_t) data_data8[11] << 8) | (uint16_t) data_data8[10];
+                }
 
-                gyr_x = ((uint16_t) data_data8[7] << 8) | (uint16_t) data_data8[6];
-                gyr_y = ((uint16_t) data_data8[9] << 8) | (uint16_t) data_data8[8];
-                gyr_z = ((uint16_t) data_data8[11] << 8) | (uint16_t) data_data8[10];
+                
                 
                 ax[i] = acc_x;
                 ay[i] = acc_y;
@@ -857,12 +864,12 @@ void lectura(void){
             }
         }
 
-        sort_uint16(ax);
-        sort_uint16(ay);
-        sort_uint16(az);
-        sort_uint16(gx);
-        sort_uint16(gy);
-        sort_uint16(gz);
+        sort_int16(ax);
+        sort_int16(ay);
+        sort_int16(az);
+        sort_int16(gx);
+        sort_int16(gy);
+        sort_int16(gz);
 
         complejo ft_ax[samples];
         complejo ft_ay[samples];
@@ -945,87 +952,93 @@ void app_main(){
     char dataResponse1[8];
     char *powermode = "Normal";
     int DEBUG = 1;
-    //printf("Beginning initialization... \n");
-    while (1){
-        int rLen = serial_read(dataResponse1, 8);
-        if (rLen > 0)
-        {
-            if (strcmp(dataResponse1, "BEGIN") == 0)
+    uint8_t bytes_to_read = 12;
+    while(1){
+        while (1){
+            int rLen = serial_read(dataResponse1, 8);
+            if (rLen > 0)
             {
-                // uart_write_bytes(UART_NUM,"OK\0",3);
-                if (DEBUG) {
-                    debug_register_log(powermode);
-                    vTaskDelay(pdMS_TO_TICKS(1000));  
+                if (strcmp(dataResponse1, "BEGIN") == 0)
+                {
+                    // uart_write_bytes(UART_NUM,"OK\0",3);
+                    if (DEBUG) {
+                        debug_register_log(powermode);
+                        vTaskDelay(pdMS_TO_TICKS(1000));  
+                    }
+                    
+                    break;
+                } 
+                char mode[4];
+                char selected[3];
+                strncpy(mode, dataResponse1, 3);
+                strncpy(selected, dataResponse1 + 3, 2);
+                printf("{command mode: %s, selected: %s}\n", mode, selected);
+                // mode[3] = "\0"; selected[2] = "\0";
+                vTaskDelay(pdMS_TO_TICKS(1000));  
+                if (strcmp(mode, "PWR") == 0){
+                    printf("{POWERMODE CHANGING}\n");
+                    if (strcmp(selected, "#1") == 0){
+                        printf("{LOW ENGAGED}\n");
+                        powermode_low();
+                        powermode = "Low";
+                        bytes_to_read = 6;
+                    }
+                    if (strcmp(selected, "#2") == 0){
+                        printf("{NORMAL ENGAGED}\n");
+                        powermode_normal();
+                        powermode = "Normal";
+                        bytes_to_read = 12;
+                    }
+                    if (strcmp(selected, "#3") == 0){
+                        printf("{PERFORMANCE ENGAGED}\n");
+                        powermode_performance();
+                        powermode = "Performance";
+                        bytes_to_read = 12;
+                    }
+                    if (strcmp(selected, "#4") == 0){
+                        printf("{SUSPEND ENGAGED}\n");
+                        powermode_suspend();
+                        powermode = "suspend";
+                        bytes_to_read = 0;
+                    }
                 }
-                
-                break;
-            } 
-            char mode[4];
-            char selected[3];
-            strncpy(mode, dataResponse1, 3);
-            strncpy(selected, dataResponse1 + 3, 2);
-            printf("{command mode: %s, selected: %s}\n", mode, selected);
-            // mode[3] = "\0"; selected[2] = "\0";
-            vTaskDelay(pdMS_TO_TICKS(1000));  
-            if (strcmp(mode, "PWR") == 0){
-                printf("{POWERMODE CHANGING}\n");
-                if (strcmp(selected, "#1") == 0){
-                    printf("{LOW ENGAGED}\n");
-                    powermode_low();
-                    powermode = "Low";
+                if (strcmp(mode, "ODR") == 0){
+                    char level[2];
+                    strncpy(level, selected +1, 1);
+                    int code = strtol(level, NULL, 16);
+                    uint8_t old = 0; uint8_t new = 0;
+                    if (code){ 
+                        uint8_t reg_acc_conf=0x40, val_acc_conf;
+                        bmi_read(I2C_NUM_0, &reg_acc_conf, &val_acc_conf, 1);
+                        old = val_acc_conf;
+                        val_acc_conf = (val_acc_conf & 0b11110000) | code;
+                        new = val_acc_conf;
+                        bmi_write(I2C_NUM_0, &reg_acc_conf, &val_acc_conf, 1);
+                        printf("{ODR ACC changed %2X -¬ %2X}\n", old, new);
+                    }
+                    strncpy(selected, dataResponse1 + 5, 2);
+                    strncpy(level, selected +1, 1);
+                    code = strtol(level, NULL, 16);
+                    if (code){
+                        uint8_t reg_gyr_conf=0x42, val_gyr_conf; 
+                        bmi_read(I2C_NUM_0, &reg_gyr_conf, &val_gyr_conf, 1);
+                        old = val_gyr_conf;
+                        val_gyr_conf = (val_gyr_conf & 0b11110000) | code;
+                        new = val_gyr_conf;
+                        bmi_write(I2C_NUM_0, &reg_gyr_conf, &val_gyr_conf, 1);
+                        printf("{ODR GYR changed %2X -¬ %2X}\n", old, new);
+                    }
+                    
                 }
-                if (strcmp(selected, "#2") == 0){
-                    printf("{NORMAL ENGAGED}\n");
-                    powermode_normal();
-                    powermode = "Normal";
-                }
-                if (strcmp(selected, "#3") == 0){
-                    printf("{PERFORMANCE ENGAGED}\n");
-                    powermode_performance();
-                    powermode = "Performance";
-                }
-                if (strcmp(selected, "#4") == 0){
-                    printf("{SUSPEND ENGAGED}\n");
-                    powermode_suspend();
-                    powermode = "suspend";
-                }
-            }
-            if (strcmp(mode, "ODR") == 0){
-                char level[2];
-                strncpy(level, selected +1, 1);
-                int code = strtol(level, NULL, 16);
-                uint8_t old = 0; uint8_t new = 0;
-                if (code){ 
-                    uint8_t reg_acc_conf=0x40, val_acc_conf;
-                    bmi_read(I2C_NUM_0, &reg_acc_conf, &val_acc_conf, 1);
-                    old = val_acc_conf;
-                    val_acc_conf = (val_acc_conf & 0b11110000) | code;
-                    new = val_acc_conf;
-                    bmi_write(I2C_NUM_0, &reg_acc_conf, &val_acc_conf, 1);
-                    printf("{ODR ACC changed %2X -¬ %2X}\n", old, new);
-                }
-                strncpy(selected, dataResponse1 + 5, 2);
-                strncpy(level, selected +1, 1);
-                code = strtol(level, NULL, 16);
-                if (code){
-                    uint8_t reg_gyr_conf=0x42, val_gyr_conf; 
-                    bmi_read(I2C_NUM_0, &reg_gyr_conf, &val_gyr_conf, 1);
-                    old = val_gyr_conf;
-                    val_gyr_conf = (val_gyr_conf & 0b11110000) | code;
-                    new = val_gyr_conf;
-                    bmi_write(I2C_NUM_0, &reg_gyr_conf, &val_gyr_conf, 1);
-                    printf("{ODR GYR changed %2X -¬ %2X}\n", old, new);
-                }
-                
             }
         }
-    }
 
-    // Data sending, can be stopped receiving an END between sendings
-    lectura();
+        // Data sending, can be stopped receiving an END between sendings
+        lectura(bytes_to_read);
 
-    // Data sending stopped, sending just OK with \0 at the end
-    while (1){
-        uart_write_bytes(UART_NUM,"OK\0",3);
+    printf("<RESET>\n");
     }
+    //printf("Beginning initialization... \n");
+
 }
+ 

@@ -1,7 +1,7 @@
 import serial
 from struct import pack, unpack
 
-COM_PORT = '/dev/ttyUSB1'  # Replace with your COM port
+COM_PORT = '/dev/ttyUSB0'  # Replace with your COM port
 BAUD_RATE = 115200  # Match the baud rate used by your ESP32s2
 
 ser = serial.Serial(COM_PORT, BAUD_RATE, timeout = 1)
@@ -114,7 +114,9 @@ def interface():
     while True:
         print(""" ============ ESP32 Monitor ============ 
                 \r  1. Change powermode
-                \r  2. Change sampling rate""")
+                \r  2. Change sampling rate
+                \r  q. Quit
+                \r  x/exit. Exit program""")
         option = input("--> ").lower().strip()
         rc = ''
         match option:
@@ -123,10 +125,13 @@ def interface():
             case '2':
                 rc = change_sampling_rate(odr)
             case 'q':
-                return
+                return True
+            case 'x' | 'exit':
+                return False
             case default:
                 print("Invalid option")
                 continue
         if rc:
             print(rc)
+    return False
             

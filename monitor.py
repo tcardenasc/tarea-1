@@ -128,80 +128,80 @@ def retrieve_storage():
     print("             ", data)
     return data
 
-interface()
-# Send "BEGIN" message
-message = pack('6s','BEGIN\0'.encode())
-ser.write(message)
 
 
+def monitor():
+    if not interface():
+        return False
+    # Send "BEGIN" message
+    message = pack('6s','BEGIN\0'.encode())
+    ser.write(message)
 
-# Read data from the serial port, waiting for the data
-counter = 0
-while True:
-    if ser.in_waiting > 0:
-        try:
-            message = receive_data_print()
-            if message is None:
-                message = retrieve_storage()
+    # Read data from the serial port, waiting for the data
+    # counter = 0
+    desync = 0
+    while True:
+        if ser.in_waiting > 0:
+            try:
+                message = receive_data_print()
                 if message is None:
-                    continue
-            vals, rms_vals, fts, peaks = message
+                    message = retrieve_storage()
+                    if message is None:
+                        desync += 1
+                        continue
+                if message == ['RESET']:
+                    print(message)
+                    break
+                vals, rms_vals, fts, peaks = message
 
-            # separate values as string lists
-            vals = vals.split('\t')
-            rms_vals = rms_vals.split('\t')
-            fts = fts.split('\t')
-            peaks = peaks.split('&')
+                # separate values as string lists
+                vals = vals.split('\t')
+                rms_vals = rms_vals.split('\t')
+                fts = fts.split('\t')
+                peaks = peaks.split('&')
 
-            # convert acc & gyr values to int
-            vals = convert_value_data(vals, int)
-            # convert rms values to float
-            rms_vals = convert_value_data(rms_vals, float)
-            # parse out ft values
-            fts = convert_complex_data(fts)
-            #convert peaks values to float in m/s²
-            peaks_accx = convert_value_data(peaks[0].split('\t'),float)*(78.4532/32768)
-            peaks_accy = convert_value_data(peaks[1].split('\t'),float)*(78.4532/32768)
-            peaks_accz = convert_value_data(peaks[2].split('\t'),float)*(78.4532/32768)
-            peaks_gyrx = convert_value_data(peaks[3].split('\t'),float)*(34.90659/32768)
-            peaks_gyry = convert_value_data(peaks[4].split('\t'),float)*(34.90659/32768)
-            peaks_gyrz = convert_value_data(peaks[5].split('\t'),float)*(34.90659/32768)
+                # convert acc & gyr values to int
+                vals = convert_value_data(vals, int)
+                # convert rms values to float
+                rms_vals = convert_value_data(rms_vals, float)
+                # parse out ft values
+                fts = convert_complex_data(fts)
+                #convert peaks values to float in m/s²
+                peaks_accx = convert_value_data(peaks[0].split('\t'),float)*(78.4532/32768)
+                peaks_accy = convert_value_data(peaks[1].split('\t'),float)*(78.4532/32768)
+                peaks_accz = convert_value_data(peaks[2].split('\t'),float)*(78.4532/32768)
+                peaks_gyrx = convert_value_data(peaks[3].split('\t'),float)*(34.90659/32768)
+                peaks_gyry = convert_value_data(peaks[4].split('\t'),float)*(34.90659/32768)
+                peaks_gyrz = convert_value_data(peaks[5].split('\t'),float)*(34.90659/32768)
 
-            interpret_data(vals)
-            print("RMS:", rms_vals)
-            print("acc_x Peaks:", peaks_accx,"m/s²")
-            print("acc_y Peaks:", peaks_accy,"m/s²")
-            print("acc_z Peaks:", peaks_accz,"m/s²")
-            print("gyr_x Peaks:", peaks_gyrx,"rad/s")
-            print("gyr_y Peaks:", peaks_gyry,"rad/s")
-            print("gyr_z Peaks:", peaks_gyrz,"rad/s")
-            print("FTS:", fts)
-        except Exception as e:
-            # print(e)
-            continue
-        else: 
-            counter += 1
-            #print(counter)
-        finally:
-            if counter == 10:
-                #print('Lecturas listas!')
+                interpret_data(vals)
+                print("RMS:", rms_vals)
+                print("acc_x Peaks:", peaks_accx,"m/s²")
+                print("acc_y Peaks:", peaks_accy,"m/s²")
+                print("acc_z Peaks:", peaks_accz,"m/s²")
+                print("gyr_x Peaks:", peaks_gyrx,"rad/s")
+                print("gyr_y Peaks:", peaks_gyry,"rad/s")
+                print("gyr_z Peaks:", peaks_gyrz,"rad/s")
+                print("FTS:", fts)
+            except serial.SerialTimeoutException:
                 break
+            except Exception as e:
+                desync += 1
+                if desync == 100:
+                    break
+                continue
+            # else: 
+            #     counter += 1
+            #     #print(counter)
+            # finally:
+            #     if counter == 10000:
+            #         #print('Lecturas listas!')
+            #         break
+    return True
 
-# Sending message to end data sending
-send_end_message()
-time.sleep(1)
+on = True
+while on:
+    on = monitor()
 
-# Waiting for message OK to end communications
-while True:
-    if ser.in_waiting > 0:
-        try:
-            message = receive_response()
-            msg = message.decode('utf-8')
-        except:
-            continue
-        else: 
-            if msg == 'OK':
-                #print('Cerrando conexión...')
-                break
 ser.close()
         
