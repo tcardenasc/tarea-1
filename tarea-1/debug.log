@@ -1,0 +1,3496 @@
+command mode: PWR, selected: #3
+
+command mode: PWR, selected: #3
+
+command mode: PWR, selected: #3
+
+command mode: PWR, selected: #3
+
+command mode: PWR, selected: #3
+
+POWERMODE CHANGING
+POWERMODE CHANGING
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+command mode: PWR, selected: #3
+
+command mode: PWR, selected: #3
+
+command mode: PWR, selected: #3
+
+___--________________------------------------------------______--------__--__-
+command mode: PWR, selected: #3
+
+command mode: a, selected: EG
+
+command mode: N, selected: EG
+
+----------------------.-_________________-__________________command mode: PWR, selected: #3
+
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+
+-____-___--__-------------------------------__________________________--------------_________---------command mode: PWR, selected: #3
+
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+
+-__________________-------------------_____________----------_____-----__----___-----__-
+command mode: PWR, selected: #3
+
+------________________________-------___-____---___----____--command mode: PWR, selected: #3
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A3
+GYR_CONF: EA
+PWR_CONF:  2
+ACC_ODR :  3
+GYR_ODR :  A
+=================================
+command mode: PWR, selected: #3
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A3
+GYR_CONF: EA
+PWR_CONF:  2
+ACC_ODR :  3
+GYR_ODR :  A
+=================================
+command mode: PWR, selected: #3
+POWERMODE CHANGING
+command mode: R#3, selected: #a
+command mode: GIN, selected: 
+
+--_____________-----__--______----------__------___-----command mode: PWR, selected: #3
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A3
+GYR_CONF: EA
+PWR_CONF:  2
+ACC_ODR :  3
+GYR_ODR :  A
+=================================
+__________________--------_____________--______---___--__---------___command mode: PWR, selected: #3
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A3
+GYR_CONF: EA
+PWR_CONF:  2
+ACC_ODR :  3
+GYR_ODR :  A
+=================================
+
+______________------------____---___--_______-------__
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A3
+GYR_CONF: EA
+PWR_CONF:  2
+ACC_ODR :  3
+GYR_ODR :  A
+=================================
+command mode: PWR, selected: #3^^^^^^^^^^^^^^^^^^^^
+
+command mode: PWR, selected: #3
+command mode: PWR, selected: #3
+command mode: PWR, selected: #3
+command mode: PWR, selected: #3
+command mode: PWR, selected: #3
+command mode: PWR, selected: #3
+command mode: PWR, selected: #3
+POWERMODE CHANGING
+POWERMODE CHANGING
+POWERMODE CHANGING
+POWERMODE CHANGING
+POWERMODE CHANGING
+POWERMODE CHANGING
+POWERMODE CHANGING
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+PERFORMANCE ENGAGED
+command mode: ODR, selected: #3
+command mode: ODR, selected: #3
+command mode: ODR, selected: #3
+command mode: ODR, selected: #3
+command mode: ODR, selected: #3
+command mode: ODR, selected: #3
+command mode: ODR, selected: #3
+command mode: ODR, selected: #3
+ODR ACC changed A8 -¬ A3
+ODR GYR changed E9 -¬ EA^^^^^^^^^^^^^^^^^^^^=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A3
+GYR_CONF: EA
+PWR_CONF:  2
+ACC_ODR :  3
+GYR_ODR :  A
+=================================^^^^^^^^^^^^^^^^^^^^
+Config_file cargado.
+
+Algoritmo de inicializacion finalizado.
+
+Init_status.0: 1 
+Comprobacion Inicializacion: OK
+
+Internal Status:  1
+
+
+command mode: PWR, selected: #4^^^^^^^^^^^^^^^^^^^^
+
+POWERMODE CHANGING
+SUSPEND ENGAGED
+command mode: ODR, selected: #7
+ODR ACC changed  0 -¬  7
+ODR GYR changed  0 -¬  D^^^^^^^^^^^^^^^^^^^^=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  7
+GYR_CONF:  D
+PWR_CONF:  1
+ACC_ODR :  7
+GYR_ODR :  D
+=================================^^^^^^^^^^^^^^^^^^^^
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAG
+^^^^^^^^^^^^^^^^^^^^
+D
+^^^^^^^^^^^^^^^^^^^^
+command mode: R#7, selected: #d
+^^^^^^^^^^^^^^^^^^^^
+command mode: GIN, selected: 
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+
+command mode: PWR, selected: #1
+POWERMODE CHANGING
+LOW ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+command mode: GIN, selected: 
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Low
+PWR_CTRL:  E
+ACC_CONF: 17
+GYR_CONF: A9
+PWR_CONF:  1
+ACC_ODR :  7
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+Init_
+^^^^^^^^^^^^^^^^^^^^
+tatus.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Low
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+	65530	65527&65532	65532	65531	65530	65529&65535	65534	65532	65532	65531&
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+Init_
+^^^^^^^^^^^^^^^^^^^^
+tatus.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+Init
+^^^^^^^^^^^^^^^^^^^^
+status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+Init
+^^^^^^^^^^^^^^^^^^^^
+status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+Init
+^^^^^^^^^^^^^^^^^^^^
+status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+493	65492	65466&65525	65517	65464	65411	65280&65535	65373	65309	65261	65140&
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+
+^^^^^^^^^^^^^^^^^^^^
+rror lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+Error lectura: ESP_ERR_TIMEOUT 
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: d0fbbfaa2
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      ee8402f-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 14:06:07[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  d0fbbfaa2...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+alor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: d0fbbfaa2
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      ee8402f-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 14:06:07[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  d0fbbfaa2...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+alor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: d0fbbfaa2
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      ee8402f-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 14:06:07[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  d0fbbfaa2...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+alor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: d0fbbfaa2
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      ee8402f-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 14:06:07[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  d0fbbfaa2...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+alor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: d0fbbfaa2
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      ee8402f-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 14:06:07[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  d0fbbfaa2...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+alor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: d0fbbfaa2
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      ee8402f-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 14:06:07[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  d0fbbfaa2...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+alor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: d0fbbfaa2
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      ee8402f-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 14:06:07[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  d0fbbfaa2...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+Algoritmo de inicializacion finalizado.
+
+
+^^^^^^^^^^^^^^^^^^^^
+nit_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+valor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: 4149db1cb
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      e93fe28-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 17:37:55[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  4149db1cb...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[0
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+alor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: 4149db1cb
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      e93fe28-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 17:37:55[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  4149db1cb...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+alor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: 4149db1cb
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      e93fe28-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 17:37:55[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  4149db1cb...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+alor de CHIPID: B6 
+
+Chip no reconocido. 
+CHIP ID: b6
+
+
+abort() was called at PC 0x400d39d3 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d3:0x3ffb4c50 0x400ded23:0x3ffb4c70 0x400d5b77:0x3ffb4c90 0x400d63f2:0x3ffb4cc0 0x400edb98:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: 4149db1cb
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e4d4h (124116) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e4fc vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      e93fe28-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 17:37:55[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  4149db1cb...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+Init
+^^^^^^^^^^^^^^^^^^^^
+status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+	645&5	4	3	3	3&65530	65529	65529	65529	65528&65533	12	12	11	11&
+^^^^^^^^^^^^^^^^^^^^
+-1192.670532;-3268.025146,-5.924219;-1639.657959,-5031.528809;906.612610,-671.402954;-6930.673340,-5043.119141;5760.853027,-17740.800781|271	261	241	240	240&61482	61480	61457	61456	61455&613	596	583	581	575&65535	65532	65531	65531	65530&65535	65533	65530	65530	65529&65534	65531	65527	65526	65520&
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+In
+^^^^^^^^^^^^^^^^^^^^
+t_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+0.278931;-2938.293457,-465.243744;-1638.306885,-1189.964478;-465.529297,-913.107544;-0.400000,0.004191;-465.527924,913.103821;-1638.316162,1189.965576;-2938.290283,465.242188;-3663.052246,-1190.275146;-3276.356934,-3276.361816;-1638.365356,-5041.641602;912.872192,-5766.567383;3662.363281,-5042.291504;5765.804688,-2939.804932	4090.949951,0.000000;-0.399939,1.918762;-0.713428,1.579468;-0.774756,0.958691;-0.813208,0.706299;-0.800049,0.549573;-0.937030,0.534814;-0.936780,0.368738;-1.037671,0.239246;-1.088989,0.107678;-0.950000,-0.000260;-1.087988,-0.107703;-1.036646,-0.239612;-0.937793,-0.368604;-0.937305,-0.535339;-0.801195,-0.551538;-0.813159,-0.706665;-0.776831,-0.959045;-0.714612,-1.580164;-0.399768,-1.917426	6555.200195,0.000000;5766.893555,2938.971924;3663.138184,5042.476562;913.320129,5767.146973;-1638.480835,5042.263184;-3276.747559,3276.650146;-3663.337891,1190.362671;-2938.490479,-465.326355;-1638.366455,-1190.234131;-465.478912,-913.313110;-0.100000,0.004192;-465.477539,913.309387;-1638.375610,1190.235352;-2938.487061,465.324799;-3663.346191,-1190.359009;-3276.757080,-3276.661621;-1638.480713,-5042.268555;913.321777,-5767.145020;3663.132080,-5042.475098;5766.901367,-2938.955811	65527.851562,0.000000;-0.101758,0.587402;-0.197461,0.325781;-0.332227,0.113477;-0.275293,0.171094;-0.300794,0.043164;-0.309961,-0.012500;-0.193945,0.060156;-0.288672,0.038086;-0.329102,0.018652;-0.250000,-0.004166;-0.312891,-0.018652;-0.272461,-0.043945;-0.210156,-0.058008;-0.313965,0.004102;-0.319101,-0.074609;-0.274121,-0.176172;-0.366016,-0.117578;-0.215234,-0.335352;-0.099805,-0.569141	2.200000,0.000000;-0.027447,0.488982;-0.165451,0.355321;-0.045611,0.187647;-0.140451,0.124495;-0.200000,-0.000000;-0.109549,0.043264;-0.104389,0.078665;-0.084550,0.011226;-0.122553,0.027329;-0.200000,-0.000000;-0.122553,-0.027329;-0.084549,-0.011226;-0.104390,-0.078666;-0.109550,-0.043265;-0.200001,-0.000001;-0.140451,-0.124495;-0.045612,-0.187647;-0.165452,-0.355322;-0.027447,-0.488981|27	24	24	23	23&65533	65533	12	11	11&4103	4098	4097	4096	4094&65535	65535	4	3	3&65530	65530	65530	65529	65529&4	4	4	3	3&
+^^^^^^^^^^^^^^^^^^^^
+23560,-0.646825|29	27	26	25	24&65535	12	11	10	10&4103	4100	4099	4098	4097&5	4	3	3	2&65530	65529	65529	65529	65529&5	4	3	3	3&
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+
+^^^^^^^^^^^^^^^^^^^^
+nit_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+
+^^^^^^^^^^^^^^^^^^^^
+nit_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+&-6	-6	-6	-6	-7&4	4	4	3	3&
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+
+^^^^^^^^^^^^^^^^^^^^
+nit_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+Algoritmo de inicializacion finalizado.
+
+Init_status.0: 1 
+Comprobacion Inicializacion: OK
+
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+Algoritmo de inicializacion finalizado.
+
+Init_status.0: 1 
+Comprobacion Inicializacion: OK
+
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #3
+POWERMODE CHANGING
+PERFORMANCE ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #3
+POWERMODE CHANGING
+PERFORMANCE ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+Performance power mode: activated. 
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #1
+POWERMODE CHANGING
+LOW ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Low
+PWR_CTRL:  E
+ACC_CONF: 17
+GYR_CONF: A9
+PWR_CONF:  1
+ACC_ODR :  7
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #3
+POWERMODE CHANGING
+PERFORMANCE ENGAGED
+command mode: ODR, selected: #1
+ODR ACC changed A8 -¬ A1
+ODR GYR changed E9 -¬ E6
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A1
+GYR_CONF: E6
+PWR_CONF:  2
+ACC_ODR :  1
+GYR_ODR :  6
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+command mode: GIN, selected: 
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+
+^^^^^^^^^^^^^^^^^^^^
+nit_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #1
+POWERMODE CHANGING
+LOW ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Low
+PWR_CTRL:  E
+ACC_CONF: 17
+GYR_CONF: A9
+PWR_CONF:  1
+ACC_ODR :  7
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #3
+POWERMODE CHANGING
+PERFORMANCE ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #3
+POWERMODE CHANGING
+PERFORMANCE ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POW
+^^^^^^^^^^^^^^^^^^^^
+RMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: ODR, selected: #1
+ODR ACC changed A8 -¬ A1
+ODR GYR changed A9 -¬ A6
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A1
+GYR_CONF: A6
+PWR_CONF:  2
+ACC_ODR :  1
+GYR_ODR :  6
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+command mode: PWR, selected: #2
+POWERMODE CHAN
+^^^^^^^^^^^^^^^^^^^^
+ING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+command mode: GIN, selected: 
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+command mode: PWR, selected: #1
+POWERMODE CHANGING
+LOW ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Low
+PWR_CTRL:  4
+ACC_CONF: 17
+GYR_CONF: A9
+PWR_CONF:  3
+ACC_ODR :  7
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+
+^^^^^^^^^^^^^^^^^^^^
+nit_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #1
+POWERMODE CHANGING
+LOW ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Low
+PWR_CTRL:  4
+ACC_CONF: 17
+GYR_CONF: A9
+PWR_CONF:  3
+ACC_ODR :  7
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (61) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (62) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (64) boot: Multicore bootloader[0m
+[0;32mI (68) boot: chip revision: v1.0[0m
+[0;32mI (72) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (77) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (81) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (86) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (91) boot.esp32: WDT reset info: PRO CPU PC=0x40081822[0m
+[0;33mW (97) boot.esp32: WDT reset info: APP CPU PC=0x40081822[0m
+[0;32mI (103) boot: Enabling RNG early entropy source...[0m
+[0;32mI (109) boot: Partition Table:[0m
+[0;32mI (112) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (120) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (127) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (135) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (142) boot: End of partition table[0m
+[0;32mI (146) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (176) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (179) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (182) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e52ch (124204) map[0m
+[0;32mI (235) esp_image: segment 4: paddr=0003e554 vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (265) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (265) boot: Disabling RNG early entropy source...[0m
+[0;32mI (276) cpu_start: Multicore app[0m
+[0;32mI (277) cpu_start: Pro cpu up.[0m
+[0;32mI (277) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+^^^^^^^^^^^^^^^^^^^^
+ets Jun  8 2016 00:22:57
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e52ch (124204) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e554 vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (215) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (245) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      e93fe28-dirty[0m
+[0;32mI (260) cpu_start: Compile time:     Sep 22 2023 17:37:55[0m
+[0;32mI (266) cpu_start: ELF file SHA256:  8de500037...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (278) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (318) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (368) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+
+^^^^^^^^^^^^^^^^^^^^
+nit_status.0: 2 
+Inicializacion fallida
+
+
+abort() was called at PC 0x400d39d7 on core 0
+
+
+Backtrace: 0x400817ce:0x3ffb4ba0 0x40086be5:0x3ffb4bc0 0x4008c28a:0x3ffb4be0 0x400d39d7:0x3ffb4c50 0x400ded7b:0x3ffb4c70 0x400d5c8c:0x3ffb4c90 0x400d643c:0x3ffb4cc0 0x400edbf0:0x3ffb4d00 0x4008934d:0x3ffb4d30
+
+
+
+
+ELF file SHA256: 8de500037
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (41) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (71) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (86) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e52ch (124204) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e554 vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (216) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (215) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (246) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (246) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      e93fe28-dirty[0m
+[0;32mI (261) cpu_start: Compile time:     Sep 22 2023 17:37:55[0m
+[0;32mI (267) cpu_start: ELF file SHA256:  8de500037...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (279) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (319) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+I
+^^^^^^^^^^^^^^^^^^^^
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #1
+POWERMODE CHANGING
+LOW ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Low
+PWR_CTRL:  4
+ACC_CONF: 17
+GYR_CONF: A9
+PWR_CONF:  3
+ACC_ODR :  7
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: ODR, selected: #1
+ODR ACC changed 17 -¬ 11
+ODR GYR changed A9 -¬ A6
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Low
+PWR_CTRL:  4
+ACC_CONF: 11
+GYR_CONF: A6
+PWR_CONF:  3
+ACC_ODR :  1
+GYR_ODR :  6
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Low
+PWR_CTRL:  4
+ACC_CONF: 11
+GYR_CONF: A6
+PWR_CONF:  3
+ACC_ODR :  1
+GYR_ODR :  6
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+^^^^^^^^^^^^^^^^^^^^
+OWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+command mode: GIN, selected: 
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+Algoritmo de inicializacion finalizado.
+
+
+^^^^^^^^^^^^^^^^^^^^
+nit_status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #3
+POWERMODE CHANGING
+PERFORMANCE ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: ODR, selected: #9
+ODR ACC changed A8 -¬ A9
+ODR GYR changed E9 -¬ E9
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A9
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  9
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A9
+GYR_CONF: E9
+PWR_CONF:  2
+ACC_ODR :  9
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWER
+^^^^^^^^^^^^^^^^^^^^
+ODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+command mode: GIN, selected: 
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+command mode: GIN, selected: 
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+Algoritmo de inicializacion finalizado.
+
+Init_status.0: 1 
+Comprobacion Inicializacion: OK
+
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+POWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : suspend
+PWR_CTRL:  0
+ACC_CONF:  0
+GYR_CONF:  0
+PWR_CONF:  1
+ACC_ODR :  0
+GYR_ODR :  0
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #2
+POWERMODE CHANGING
+NORMAL ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+
+command mode: PWR, selected: #4
+^^^^^^^^^^^^^^^^^^^^
+OWERMODE CHANGING
+SUSPEND ENGAGED
+^^^^^^^^^^^^^^^^^^^^
+command mode: GIN, selected: 
+^^^^^^^^^^^^^^^^^^^^
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (61) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (62) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (64) boot: Multicore bootloader[0m
+[0;32mI (68) boot: chip revision: v1.0[0m
+[0;32mI (72) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (77) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (81) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (86) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (91) boot.esp32: WDT reset info: PRO CPU PC=0x40081822[0m
+[0;33mW (97) boot.esp32: WDT reset info: APP CPU PC=0x40081822[0m
+[0;32mI (103) boot: Enabling RNG early entropy source...[0m
+[0;32mI (109) boot: Partition Table:[0m
+[0;32mI (112) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (120) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (127) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (135) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (142) boot: End of partition table[0m
+[0;32mI (146) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (176) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (179) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (182) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e52ch (124204) map[0m
+[0;32mI (235) esp_image: segment 4: paddr=0003e554 vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (265) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (265) boot: Disabling RNG early entropy source...[0m
+[0;32mI (276) cpu_start: Multicore app[0m
+[0;32mI (277) cpu_start: Pro cpu up.[0m
+[0;32mI (277) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+^^^^^^^^^^^^^^^^^^^^
+ets Jun  8 2016 00:22:57
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e52ch (124204) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e554 vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (215) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (245) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      d085d19-dirty[0m
+[0;32mI (260) cpu_start: Compile time:     Sep 25 2023 17:27:57[0m
+[0;32mI (266) cpu_start: ELF file SHA256:  2cb40eff2...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (278) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (318) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[
+^^^^^^^^^^^^^^^^^^^^
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+ets Jun  8 2016 00:22:57
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7136
+load:0x40078000,len:15780
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3884
+entry 0x40080650
+[0;32mI (31) boot: ESP-IDF v5.2-dev-2383-g82cceabc6e 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 22 2023 12:34:40[0m
+[0;32mI (33) boot: Multicore bootloader[0m
+[0;32mI (37) boot: chip revision: v1.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (50) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (60) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (78) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (93) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0de08h ( 56840) map[0m
+[0;32mI (126) esp_image: segment 1: paddr=0001de30 vaddr=3ffb0000 size=02178h (  8568) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=0001ffb0 vaddr=40080000 size=00068h (   104) load[0m
+[0;32mI (132) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1e52ch (124204) map[0m
+[0;32mI (185) esp_image: segment 4: paddr=0003e554 vaddr=40080068 size=0d8a0h ( 55456) load[0m
+[0;32mI (215) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (215) boot: Disabling RNG early entropy source...[0m
+[0;32mI (227) cpu_start: Multicore app[0m
+[0;32mI (227) cpu_start: Pro cpu up.[0m
+[0;32mI (227) cpu_start: Starting app cpu, entry point is 0x40081198[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (245) cpu_start: Pro cpu start user code[0m
+[0;32mI (245) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (245) cpu_start: Application information:[0m
+[0;32mI (250) cpu_start: Project name:     tarea-1[0m
+[0;32mI (255) cpu_start: App version:      d085d19-dirty[0m
+[0;32mI (260) cpu_start: Compile time:     Sep 25 2023 17:27:57[0m
+[0;32mI (266) cpu_start: ELF file SHA256:  2cb40eff2...[0m
+[0;32mI (272) cpu_start: ESP-IDF:          v5.2-dev-2383-g82cceabc6e[0m
+[0;32mI (278) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (283) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (288) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (293) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (300) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (306) heap_init: At 3FFB2A00 len 0002D600 (181 KiB): DRAM[0m
+[0;32mI (312) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (318) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (325) heap_init: At 4008D908 len 000126F8 (73 KiB): IRAM[0m
+[0;32mI (333) spi_flash: detected chip: generic[0m
+[0;32mI (336) spi_flash: flash io: dio[0m
+[0;33mW (340) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (353) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (364) app_start: Starting scheduler on CPU0[0m
+[0;32mI (369) app_start: Starting scheduler on CPU1[0
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+^^^^^^^^^^^^^^^^^^^^
+
+Algoritmo de inicializacion finalizado.
+
+Init
+^^^^^^^^^^^^^^^^^^^^
+status.0: 1 
+Comprobacion Inicializacion: OK
+
+^^^^^^^^^^^^^^^^^^^^
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+Config_file cargado.
+
+Algoritmo de inicializacion finalizado.
+
+Init_status.0: 1 
+Comprobacion Inicializacion: OK
+
+Internal Status:  1
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^
+
+^^^^^^^^^^^^^^^^^^^^
+=================================
+Mode : Normal
+PWR_CTRL:  E
+ACC_CONF: A8
+GYR_CONF: A9
+PWR_CONF:  2
+ACC_ODR :  8
+GYR_ODR :  9
+=================================
+^^^^^^^^^^^^^^^^^^^^

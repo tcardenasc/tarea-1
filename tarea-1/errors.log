@@ -1,0 +1,120 @@
+
+Algoritmo de inicializacion finalizado.
+
+Init_s
+atus.0: 1 
+Comprobacion Inicializacion: OK
+
+
+Softreset: OK
+
+valor de CHIPID: 24 
+
+Chip reconocido.
+
+Inicializando ...
+
+Config_file cargado.
+
+
+Algoritmo de inicializacion finalizado.
+
+I
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+
+
+
+Config_file cargado.
+
+
+Algoritmo de inicializacion finalizado.
+
+I
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+
+
+Config_file cargado.
+
+
+Algoritmo de inicializacion finalizado.
+
+I
+it_status.0: 1 
+Comprobacion Inicializacion: OK
+
+
+command mode: PWR, selected: #3
+
+command mode: PWR, selected: #3
+
+command mode: PWR, selected: #3
+
+
+command mode: PWR, selected: #3
+
+
+command mode: PWR, selected: #3
+
+ODR GYR changed E9 -
+=================================
+Mode : Performance
+PWR_CTRL:  E
+ACC_CONF: A3
+GYR_CONF: EA
+PWR_CONF:  2
+ACC_ODR :  3
+GYR_ODR :  A
+=======================
+=========}
+command mode: PWR, selected: #3
+
+
+ODR GYR changed E9 -
+ EA}
+
+command mode: PWR, selected: #3
+
+
+ODR GYR changed E9 -
+
+command mode: PWR, selected: #3
+
+
+
+
+
+
+
+
+command mode: PWR, selected: #3
+
+
+ODR GYR changed E9 -
+ EA}
+
+command mode: PWR, selected: #3
+
+
+
+
+
+
+Config_file cargado.
+
+Algoritmo de inicializacion finalizado.
+
+Init_status.0: 1 
+Comprobacion Inicializacion: OK
+
+Low power mode: activated. 
+
+Internal Status:  1
+
+
+
+
+
