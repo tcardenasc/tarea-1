@@ -6,32 +6,14 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>774</width>
-    <height>836</height>
+    <width>744</width>
+    <height>878</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label_30">
-   <property name="geometry">
-    <rect>
-     <x>350</x>
-     <y>130</y>
-     <width>101</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(0, 0, 0);
-
-</string>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Sensor activo&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QProgressBar" name="progressBar">
+  <widget class="QProgressBar" name="active_progress_bar">
    <property name="geometry">
     <rect>
      <x>460</x>
@@ -44,7 +26,7 @@
     <number>0</number>
    </property>
   </widget>
-  <widget class="QComboBox" name="selec_12">
+  <widget class="QComboBox" name="sensor_selector">
    <property name="geometry">
     <rect>
      <x>350</x>
@@ -58,7 +40,7 @@
    </property>
    <item>
     <property name="text">
-     <string>&lt;Ninguno&gt;</string>
+     <string>&lt;None&gt;</string>
     </property>
    </item>
    <item>
@@ -68,11 +50,11 @@
    </item>
    <item>
     <property name="text">
-     <string>BMI688</string>
+     <string>BME688</string>
     </property>
    </item>
   </widget>
-  <widget class="QLabel" name="label_9">
+  <widget class="QLabel" name="acc_sampling_label">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -83,10 +65,10 @@
    </property>
    <property name="text">
     <string>Frecuencia de 
- muestro</string>
+ muestreo</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="text_acc_sampling">
+  <widget class="QComboBox" name="acc_sensitivity">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -95,8 +77,28 @@
      <height>31</height>
     </rect>
    </property>
+   <item>
+    <property name="text">
+     <string>+/- 2g</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>+/- 4g</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>+/- 8g</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>+/- 16g</string>
+    </property>
+   </item>
   </widget>
-  <widget class="QLabel" name="label_7">
+  <widget class="QLabel" name="acc_sensitivity_label">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -109,12 +111,12 @@
     <string>Sensibilidad</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="title">
    <property name="geometry">
     <rect>
-     <x>350</x>
+     <x>320</x>
      <y>40</y>
-     <width>71</width>
+     <width>91</width>
      <height>41</height>
     </rect>
    </property>
@@ -132,7 +134,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QTextEdit" name="text_acc_sensibity">
+  <widget class="QComboBox" name="acc_sampling">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -141,8 +143,68 @@
      <height>31</height>
     </rect>
    </property>
+   <item>
+    <property name="text">
+     <string>25/32</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25/16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25/8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25/4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25/2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>50</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>200</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>400</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>800</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1600</string>
+    </property>
+   </item>
   </widget>
-  <widget class="QComboBox" name="selec_13">
+  <widget class="QComboBox" name="mode_selector">
    <property name="geometry">
     <rect>
      <x>360</x>
@@ -165,12 +227,12 @@
     </property>
    </item>
   </widget>
-  <widget class="QLabel" name="label_31">
+  <widget class="QLabel" name="mode_selector_label">
    <property name="geometry">
     <rect>
-     <x>390</x>
+     <x>370</x>
      <y>270</y>
-     <width>121</width>
+     <width>151</width>
      <height>21</height>
     </rect>
    </property>
@@ -183,7 +245,7 @@
     <string>Modo de Funcionamiento</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_32">
+  <widget class="QLabel" name="accelerometer_title">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -201,7 +263,7 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Acelerómetro&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_33">
+  <widget class="QLabel" name="gyroscope_title">
    <property name="geometry">
     <rect>
      <x>170</x>
@@ -219,7 +281,7 @@
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Giroscopio&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_8">
+  <widget class="QLabel" name="gyr_sensitivity_label">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -232,7 +294,7 @@
     <string>Sensibilidad</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_10">
+  <widget class="QLabel" name="gyr_sampling_label">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -243,10 +305,10 @@
    </property>
    <property name="text">
     <string>Frecuencia de 
- muestro</string>
+ muestreo</string>
    </property>
   </widget>
-  <widget class="QTextEdit" name="text_acc_sensibity_2">
+  <widget class="QComboBox" name="gyr_sampling">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -255,8 +317,48 @@
      <height>31</height>
     </rect>
    </property>
+   <item>
+    <property name="text">
+     <string>25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>50</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>200</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>400</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>800</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1600</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3200</string>
+    </property>
+   </item>
   </widget>
-  <widget class="QTextEdit" name="text_acc_sampling_2">
+  <widget class="QComboBox" name="gyr_sensitivity">
    <property name="geometry">
     <rect>
      <x>210</x>
@@ -265,8 +367,33 @@
      <height>31</height>
     </rect>
    </property>
+   <item>
+    <property name="text">
+     <string>+/- 2000dps</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>+/- 1000dps</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>+/- 500dps</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>+/- 250dps</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>+/- 125dps</string>
+    </property>
+   </item>
   </widget>
-  <widget class="QGraphicsView" name="Plot1">
+  <widget class="PlotWidget" name="Plot1">
    <property name="geometry">
     <rect>
      <x>60</x>
@@ -282,7 +409,7 @@
     <enum>QFrame::Plain</enum>
    </property>
   </widget>
-  <widget class="QGraphicsView" name="Plot2">
+  <widget class="PlotWidget" name="Plot2">
    <property name="geometry">
     <rect>
      <x>390</x>
@@ -298,7 +425,7 @@
     <enum>QFrame::Plain</enum>
    </property>
   </widget>
-  <widget class="QGraphicsView" name="Plot3">
+  <widget class="PlotWidget" name="Plot3">
    <property name="geometry">
     <rect>
      <x>60</x>
@@ -314,7 +441,7 @@
     <enum>QFrame::Plain</enum>
    </property>
   </widget>
-  <widget class="QGraphicsView" name="Plot4">
+  <widget class="PlotWidget" name="Plot4">
    <property name="geometry">
     <rect>
      <x>390</x>
@@ -330,7 +457,7 @@
     <enum>QFrame::Plain</enum>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
+  <widget class="QLabel" name="plot1_label">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -352,7 +479,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="label_4">
+  <widget class="QLabel" name="plot2_label">
    <property name="geometry">
     <rect>
      <x>440</x>
@@ -374,7 +501,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="label_5">
+  <widget class="QLabel" name="plot3_label">
    <property name="geometry">
     <rect>
      <x>120</x>
@@ -396,7 +523,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QLabel" name="label_6">
+  <widget class="QLabel" name="plot4_label">
    <property name="geometry">
     <rect>
      <x>440</x>
@@ -418,7 +545,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="update_config">
    <property name="geometry">
     <rect>
      <x>550</x>
@@ -431,7 +558,7 @@
     <string>Iniciar configuración</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="start_data_capture">
    <property name="geometry">
     <rect>
      <x>320</x>
@@ -445,7 +572,27 @@
  de datos</string>
    </property>
   </widget>
+  <widget class="QLabel" name="active_progress_label">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>120</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Sensor activo&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlotWidget</class>
+   <extends>QGraphicsView</extends>
+   <header>pyqtgraph</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>

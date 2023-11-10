@@ -4,3 +4,13 @@ tarea-1/'math'$'\r'
 tarea-1/'serial'$'\r'
 tarea-1/'time'$'\r'
 tarea-1/sdkconfig
+tarea-2/__pycache__
+tarea-2/build
+tarea-2/'math'$'\r'
+tarea-2/'serial'$'\r'
+tarea-2/'time'$'\r'
+tarea-2/sdkconfig
+*.log
+*.out
+build
+__pycache__
